@@ -15,4 +15,5 @@ permissions:
 jobs:
   reusable_workflow_job:
     uses: MapColonies/shared-workflows/.github/workflows/build-and-push.yaml@master
+    uses: MapColonies/shared-workflows/.github/workflows/bump-chart.yaml@master
     secrets: inherit
